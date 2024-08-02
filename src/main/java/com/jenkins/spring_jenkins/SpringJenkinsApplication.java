@@ -13,7 +13,7 @@ public class SpringJenkinsApplication {
 
 	public static String test="iuc";
 	@PostConstruct
-	public  intt()
+	public void intt()
 	{
 		logger.info("Application started");
 	}
