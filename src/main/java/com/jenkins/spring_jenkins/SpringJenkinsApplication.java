@@ -15,7 +15,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void intt()
 	{
-		logger.info("Application started using Spring Boot");
+		logger.info("Application started using Spring Boot")
 	}
 
 	public static void main(String[] args) {
